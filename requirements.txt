@@ -1,0 +1,9 @@
+torch
+torchvision
+torchaudio
+flask
+python-dotenv
+soundfile
+transformers
+neucodec
+peft
