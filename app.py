@@ -95,6 +95,7 @@ def synthesize():
         # Convert WAV → MP3 (cần ffmpeg cài local)
         subprocess.run([
             'ffmpeg', '-i', wav_path,
+            '-af', 'volume=2.0',
             '-q:a', '2', '-y', mp3_path
         ], capture_output=True)
 
